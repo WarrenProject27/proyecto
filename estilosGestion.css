@@ -1,0 +1,116 @@
+/*Estilos de menu principal*/
+.root {
+	-fx-background-color: rgb(21, 165, 234);
+	-fx-background-color: linear-gradient(to top right, #051937, #004d7a, #008793, #00bf72, rgb(198, 242, 94));
+}
+
+#panelGestion {
+	-fx-background-color: white;
+	-fx-padding: 30px 0px 0px 0px;
+	-fx-background-radius: 3px;
+	-fx-min-height: 400px;
+	-fx-opacity: 0.95;
+}
+
+#marca {
+	-fx-font-size:20px;
+	-fx-font-weight: bold;
+	-fx-text-fill: rgb(0,0, 160);
+}
+#btnAdmin, #btnProgramas, .nav-button {
+	-fx-min-width: 180px;
+	-fx-min-height: 40px;
+	-fx-background-color: rgb(232, 232, 232);
+	-fx-border-color: transparent transparent transparent transparent;
+	-fx-border-width: 0 0 0 4px;
+	-fx-border-style: solid;
+}
+
+#btnAdmin.selected, #btnProgramas.selected, .nav-button.selected {
+	-fx-border-color: transparent transparent transparent rgb(0, 0, 160);
+}
+
+#btnAdmin:hover, #btnProgramas:hover, .nav-button:hover {
+	-fx-border-color: transparent transparent transparent rgb(0, 0, 160);
+	-fx-cursor: hand;
+}
+
+#buscarPrograma {
+	-fx-background-color: #06477f;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+}
+
+#limpiarPrograma {
+	-fx-background-color: white;
+	-fx-border-color: gray;
+	-fx-border-width: 1px;
+	-fx-border-radius: 3px;
+}
+
+.action-button {
+	-fx-background-color: #008793;
+	-fx-text-fill: white;
+	-fx-background-radius: 3px;
+}
+
+.delete-button {
+	-fx-background-color: #e74c3c;
+	-fx-text-fill: white;
+	-fx-background-radius: 3px;
+}
+
+#btnSesion {
+	-fx-min-width:140px;
+	-fx-min-height: 30px;
+	-fx-background-color: white;
+	-fx-border-color: gray;
+	-fx-border-width: 1px;
+	-fx-border-style: solid;
+	-fx-cursor: pointer;
+	-fx-background-radius: 5px;
+	-fx-border-radius: 5px;
+	-fx-font-weight: bold;
+}
+
+#tituloGestion {
+	-fx-font-size: 20px;
+	-fx-font-weight: bold;
+}
+
+#segundoPanel {
+	-fx-background-color: white;
+	-fx-padding: 30px;
+	-fx-background-radius: 3px;
+	-fx-opacity: 0.95;
+}
+
+/* Reducimos el padding para que la barra sea finita */
+#panelSesion {
+	-fx-background-color: white;
+	-fx-padding: 10px 20px; 
+	-fx-background-radius: 3px;
+	-fx-opacity: 0.95;
+}
+#center {
+	-fx-alignment:center;
+	-fx-alignment:center;
+}
+.ver {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-background-radius: 3px;
+    -fx-border-color: black;
+    -fx-border-width: 0.5px;
+    -fx-border-radius: 3px;
+}
+.editar {
+	-fx-background-color: #008793;
+	-fx-text-fill: white;
+	-fx-background-radius: 3px;
+}
+.eliminar {
+	-fx-background-color: #e74c3c;
+	-fx-text-fill: white;
+	-fx-background-radius: 3px;
+}

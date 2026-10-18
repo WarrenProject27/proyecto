@@ -1,0 +1,28 @@
+.root {
+	-fx-background-color: rgb(21, 165, 234);
+	-fx-background-color: linear-gradient(to top right, #051937, #004d7a, #008793, #00bf72, rgb(198, 242, 94));
+}
+#panel-login {
+	-fx-background-color: white;
+	-fx-padding: 30px;
+	-fx-background-radius: 10px;
+	-fx-min-height: 400px;
+	-fx-opacity: 0.95;
+}
+
+#titulo {
+	-fx-font-weight:bold;
+	-fx-font-size: 35px;
+}
+#subtitulo {
+	-fx-font-size: 13px;
+}
+.button {
+	-fx-background-color:rgb(0, 64, 128);
+	-fx-text-fill: white;
+	-fx-font-weight:bold;
+	-fx-cursor:pointer;
+}
+.button:hover {
+	-fx-background-color: #0054d6;
+}
